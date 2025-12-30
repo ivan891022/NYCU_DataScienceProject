@@ -1,0 +1,32 @@
+# Python / virtual env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# 大型輸出 & log
+outputs/
+logs/
+checkpoints/
+*.log
+
+# 資料集（很重要，不要 push）
+data/
+datasets/
+hcd/
+histopathologic-cancer-detection/
+*.tif
+*.tiff
+
+# 壓縮檔（如果不想推）
+*.zip
+*.7z
+*.rar
